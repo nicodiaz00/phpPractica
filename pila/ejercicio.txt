@@ -1,0 +1,13 @@
+1. Pasar una Pila a otra
+2. Copiar una Pila en otra (dejándola en el mismo orden que la original)
+3. Invertir el contenido de una Pila.
+4. Verificar si existen más de una ocurrencia de un elemento x dado, en una pila p.
+5. Eliminar de una pila los elementos impares (sin perder el orden de los elementos que quedan en la pila).
+6. realice un procedimiento que determine si dos pilas son iguales
+
+7. Copiar de una cola en otra
+8. Invertir el contenido de una Cola.
+9. realice un procedimiento que determine si dos Colas son iguales
+
+
+

@@ -1,4 +1,4 @@
-<?php
+
 include 'Cuadrado.php';
 include 'Triangulo.php';
 include 'Circulo.php';

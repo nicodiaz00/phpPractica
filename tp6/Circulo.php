@@ -16,4 +16,18 @@ class Circulo extends Figuras
         $resultado= ($this->radio * $this->radio) * 3.14;
         return $resultado;
     }
+
+    public function setSuperficie($superficie)
+    {
+        return $this->radio = $superficie;
+    }
+    public function mostrarAtributos()
+    {
+        get_class_vars(get_class($this));
+
+        foreach ($this as $nombre => $valor) {
+            echo "$nombre : $valor\n";
+        }
+
+    }
 }

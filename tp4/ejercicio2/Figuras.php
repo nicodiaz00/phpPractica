@@ -1,4 +1,4 @@
-<?php
+
 class Figuras
 {
     protected $posX;

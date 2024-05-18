@@ -12,4 +12,8 @@ class Figuras
     {
 
     }
+    public function mostrarAtributos()
+    {
+
+    }
 }

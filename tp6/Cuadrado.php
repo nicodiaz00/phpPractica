@@ -9,11 +9,18 @@ class Cuadrado extends Figuras
     {
         return $this->lado * $this->lado;
     }
-
-    /*
-     public function __construct($valorLado)
+    public function setLado($valor)
     {
-        $this->lado=$valorLado;
+        $this->lado = $valor;
     }
-     */
+    public function mostrarAtributos()
+    {
+        get_class_vars(get_class($this));
+
+        foreach ($this as $nombre => $valor) {
+            echo "$nombre : $valor\n";
+        }
+
+    }
+
 }
