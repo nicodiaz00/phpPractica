@@ -51,8 +51,12 @@ class Agencia{
         }
     }
     public function venderAuto(){
+         $car = trim(readline("Ingrese el modelo:"));
+         echo $car;
+         echo strlen($car);
 
     }
+
 
     
 }
